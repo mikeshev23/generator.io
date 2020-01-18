@@ -1,1 +1,1 @@
-# generator.io
+This password generator creates complex passwords up to 24 characters long. The password can be selected to print a mixture of lowercase and uppercase letters, numbers, and even symbols. These random combinations of characters make your password secure from brute force attacks. This is especially useful from a business standpoint, where sensitive information is at risk.

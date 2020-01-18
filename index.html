@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Passwordinator v0.1.2 Alpha</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="passcontainer">
+            <span id="result"></span>
+            <button class="button" id="save" >Copy</button>
+        </div>
+
+        <div class="options">
+            <div class="set">
+                <label>Length of Password</label>
+                <input type="number" id="length" min="6" max="24" value="15">
+            </div>
+
+        <div class="options">
+            <label>Lowercase Letters</label>
+            <input type="checkbox" id="lwCase" checked>
+        </div>
+
+        <div class="options">
+            <label>Uppercase Letters</label>
+            <input type="checkbox" id="upCase" checked>
+        </div>
+
+        <div class="options">
+            <label>Numbers</label>
+            <input type="checkbox" id="numbers" checked>
+        </div>
+
+        <div class="options">
+            <label>Symbols</label>
+            <input type="checkbox" id="symbols" checked>
+        </div>
+        </div>
+        <button class="btn" id="generate">
+            Generate!
+        </button>
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
